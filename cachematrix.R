@@ -43,6 +43,7 @@ cacheSolve <- function(x, ...) {
         ## if the cached inverse exists, returns the cached inverse; the "return" stops the function 
         ## execution, so no "else" clause is necessary.
         if(!is.null(invMat)){
+                
                 return (invMat)
         }
         
